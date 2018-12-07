@@ -1,5 +1,5 @@
 [package]
-name = "minigrep"
+name = "minigrep-yay"
 version = "0.1.0"
 authors = ["Hongchao Liu <lbs.lhc@gmail.com>"]
 description = "very dumb grep, as taught in the Rust Programming Language"
