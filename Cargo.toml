@@ -1,7 +1,9 @@
 [package]
 name = "minigrep"
 version = "0.1.0"
-authors = ["Hongchao Liu <hongchao@minatjanster.se>"]
+authors = ["Hongchao Liu <lbs.lhc@gmail.com>"]
+description = "very dumb grep, as taught in the Rust Programming Language"
 edition = "2018"
+license = "MIT"
 
 [dependencies]
