@@ -1,9 +1,9 @@
-extern crate minigrep;
+extern crate minigrepyay;
 
 use std::env;
 use std::process;
 
-use minigrep::Config;
+use minigrepyay::Config;
 
 fn main() {
     let args: Vec<String> = env::args().collect();
@@ -13,7 +13,7 @@ fn main() {
         process::exit(1);
     });
 
-    if let Err(err) = minigrep::run(config) {
+    if let Err(err) = minigrepyay::run(config) {
         eprintln!("Application error: {}", err);
 
         process::exit(1);
